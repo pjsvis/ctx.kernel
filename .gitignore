@@ -1,0 +1,51 @@
+﻿## Ignore .NET build output
+[Bb]in/
+[Oo]bj/
+
+# .NET Core assets and temporary files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.user
+*.vs/**
+
+# Rider / JetBrains specific files
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Temporary or OS files
+[Tt]humbs.db
+ehthumbs.db
+*.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+~$*
+
+# Secrets
+secrets.json
+
+# Output files
+*.dll
+*.pdb
+*.exe
+*.app
+*.so
+*.dylib
+*.nupkg
+*.snupkg
+*.tar.gz
+*.zip
+
+# Publish directory
+publish/
+
+# Generated files
+*.g.i.cs
+
